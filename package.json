@@ -1,0 +1,16 @@
+{
+  "name": "bidding-platform",
+  "version": "1.0.0",
+  "description": "Creating a real-time bidding platform using Node.js, Express, Socket.io and SQL database(MySQL).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "real-time",
+    "bidding",
+    "platform"
+  ],
+  "author": "Faizan khan",
+  "license": "ISC"
+}
