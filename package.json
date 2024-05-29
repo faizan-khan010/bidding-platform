@@ -2,9 +2,11 @@
   "name": "bidding-platform",
   "version": "1.0.0",
   "description": "Creating a real-time bidding platform using Node.js, Express, Socket.io and SQL database(MySQL).",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "keywords": [
     "real-time",
@@ -12,5 +14,8 @@
     "platform"
   ],
   "author": "Faizan khan",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.1"
+  }
 }
